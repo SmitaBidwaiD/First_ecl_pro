@@ -1,3 +1,4 @@
+import com.cts.service.SomeService;
 
 public class Main {
 
@@ -6,6 +7,9 @@ public class Main {
 		System.out.println("Hello,eclipse & cogni ");
 		System.out.println("hope i am in cogni");
 		System.out.println("Hii , Its working");
+		
+		SomeService ss=new SomeService();
+		System.out.println(ss.findlength("program"));
 	}
 
 }
